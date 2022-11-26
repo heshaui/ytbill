@@ -1,0 +1,61 @@
+.noticeCard .el-col {
+    margin-bottom: 20px;
+}
+.voiceCard {
+    box-sizing: border-box;
+    min-height: 36px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 5px #eee;
+    overflow: hidden;
+    .cardHead {
+        margin: 0 -20px;
+        padding: 0 20px 20px 20px;
+        border-bottom: 1px solid #f0f8fa;
+        .cardTop {
+            height: 24px;
+            position: relative;
+            .position-right {
+                position: absolute;
+                display: inline-block;
+                right: -10px;
+                top: -10px;
+            }
+            .card-title {
+                width: 80%;
+                overflow: hidden;
+                white-space: nowrap;
+                font-size: 14px;
+                text-overflow: ellipsis;
+                float: left;
+                font-weight: 500;
+            }
+        }
+        & > p {
+            font-size: 12px;
+            color: #909399;
+        }
+    }
+    .cardContent {
+        padding: 20px 0;
+        border-bottom: 1px solid #f0f8fa;
+        & > .el-alert {
+            height: 90px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+    }
+    .cardFooter {
+        .toolBox {
+            height: 77px;
+            text-align: center;
+            .el-button {
+                margin-top: 10px;
+            }
+        }
+    }
+}

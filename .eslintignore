@@ -1,0 +1,14 @@
+obc_web/
+node_modules/
+babel.config.js
+vue.config.js
+.eslintrc.js
+script/
+/src/views/ivrDesign/easyFlow/
+/src/views/statisticalReport/
+/src/views/weipinhui/
+/src/views/imManage/
+/src/util/
+/src/assets/js/JVcc/
+/src/components/SipSdk/
+/src/components/WTransfer/
